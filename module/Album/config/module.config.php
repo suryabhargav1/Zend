@@ -1,15 +1,10 @@
-<?php 
+<?php
 namespace Album;
 
 use Zend\Router\Http\Segment;
-use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
-    'controllers' => [
-        'factories' => [
-            Controller\AlbumController::class => InvokableFactory::class,
-        ],
-    ],
+    
 
     // The following section is new and should be added to your file:
     'router' => [
@@ -37,4 +32,3 @@ return [
         ],
     ],
 ];
-?>
